@@ -1,0 +1,31 @@
+body{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.grid-container {
+    flex: 1;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 15px; 
+}
+
+button {
+    border-radius: 0.25rem; 
+    background-color: #3490dc; 
+    color: #ffffff; 
+    padding: 0.5rem 1rem; 
+    cursor: pointer; 
+}
+
+
+button:hover {
+    background-color: #2779bd; /* Darker blue background color on hover */
+}
